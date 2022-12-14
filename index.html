@@ -19,7 +19,7 @@
         <div class="top">
           <div class="logo">
             <img src="./images/logo.png" alt="Logo" />
-            <h2>Bacale For<span class="danger">Jabea</span></h2>
+            <h2><span class="danger">Jabea</span></h2>
           </div>
           <div class="close" id="close-btn">
             <span class="material-symbols-sharp">close</span>
@@ -29,7 +29,7 @@
         <!-- sidebar -->
         <div class="sidebar">
           <!-- navlinks -->
-          <a href="#">
+          <a href="#" class="active">
             <span class="material-symbols-sharp"> dashboard </span>
             <h3>Dashboard</h3>
           </a>
@@ -72,6 +72,68 @@
           </a>
         </div>
       </aside>
+      <!-- END OF ASIDE -->
+
+      <main>
+        <h1>Dashboard</h1>
+
+        <div class="date"><input type="date" /></div>
+
+        <!-- Dashboard Cards -->
+        <div class="insights">
+          <div class="sales">
+            <span class="material-symbols-sharp"> analytics </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Sales</h3>
+                <h1>XAF 970,000</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36  "></circle>
+                </svg>
+                <div class="number"><p>81%</p></div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- End OF SALES -->
+          <div class="expenses">
+            <span class="material-symbols-sharp"> analytics </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Expenses</h3>
+                <h1>XAF 157,000</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36  "></circle>
+                </svg>
+                <div class="number"><p>60%</p></div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- End OF EXPENSES -->
+          <div class="income">
+            <span class="material-symbols-sharp"> analytics </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Income</h3>
+                <h1>XAF 570,080</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36  "></circle>
+                </svg>
+                <div class="number"><p>44%</p></div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- End OF INCOME -->
+        </div>
+      </main>
     </div>
   </body>
 </html>
